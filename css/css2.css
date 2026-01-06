@@ -1,0 +1,14 @@
+.main-header__courses {
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-header__choose {
+    text-align: center;
+}
+
+.main-header__img img {
+    left: 25%;
+    position: relative;
+    height: 64px;
+}
