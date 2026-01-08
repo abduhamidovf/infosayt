@@ -7,8 +7,9 @@
     text-align: center;
 }
 
-.main-header__img img {
+.main-header__img > img {
     left: 25%;
     position: relative;
-    height: 64px;
+    height: 200px;
+    display: inline;
 }
