@@ -1,15 +1,144 @@
-.main-header__courses {
-    text-align: center;
-    font-size: 50px;
+.header {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #e4e4e4;
+  font-family: "Inter", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: #fff;
 }
 
-.main-header__choose {
-    text-align: center;
+/* NAVBAR */
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.main-header__img > img {
-    left: 25%;
-    position: relative;
-    height: 200px;
-    display: inline;
+.logo-box {
+  background: #0b4d2b;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 700;
 }
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0b4d2b;
+}
+
+/* MAIN NAV MENU */
+.nav-menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.navbar {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 22px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 80px;
+}
+
+/* header */
+
+/* body */
+.courses {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    font-family: "Inter", sans-serif;
+    padding-top: 120px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #666;
+    max-width: 650px;
+    margin: 0 auto 50px auto;
+    line-height: 1.5;
+}
+
+/* COURSE CARDS */
+.course-card {
+    display: flex;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 35px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 26px rgba(0,0,0,0.08);
+}
+
+/* IMAGE */
+.course-img {
+    width: 350px;
+    height: 240px;
+    object-fit: cover;
+}
+
+/* CONTENT */
+.course-content {
+    flex: 1;
+    padding: 25px 28px;
+}
+
+.course-content h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.course-content p {
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.55;
+}
+
+/* info row */
+.course-info {
+    display: flex;
+    gap: 22px;
+    color: #444;
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+
+/* button */
+.course-btn {
+    display: inline-block;
+    background: #0b4d2b;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.25s;
+}
+
+.course-btn:hover {
+    background: #083d22;
+}
+/* body */

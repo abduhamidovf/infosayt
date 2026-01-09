@@ -2,16 +2,23 @@
     width: 100%;
     background: #ffffff;
     border-bottom: 1px solid #eee;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
 }
 
 .main-navigaton {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 18px 20px;
-
+    padding: 22px 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:  flex-start;
+    gap: 80px;
 }
 
 .logo {
@@ -23,9 +30,9 @@
 .logo-box {
     background: #0b4d2b;
     color: #fff;
-    font-weight: bold;
-    padding: 8px 10px;
-    border-radius: 6px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: 700;
 }
 
 .logo-text {
@@ -35,32 +42,48 @@
 }
 
 .main-items {
-    list-style: none;
     display: flex;
     gap: 35px;
-    margin: 0 auto;
-}
-
-.main-item {
-    position: relative;
+    list-style: none;
 }
 
 .main-link {
     text-decoration: none;
     color: black;
     font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    position: relative;
+    transition: color 0.25s ease;
+
+}
+
+.main-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background: #0b4d2b;
+  transition: width 0.25s ease;
+}
+
+.main-link:hover::after {
+  width: 100%;
 }
 
 .main-link:hover {
     color: #0b4d2b;
 }
 
-/* qo'shimcha */
+/* qo'shimcha */                
 
 /* HERO SECTION */
 .hero {
     background: #eaf6ee;
     padding: 70px 0;
+    padding-top: 120px;
 }
 
 .hero-container {
@@ -134,4 +157,56 @@
 .hero-image img {
     width: 100%;
     border-radius: 20px;
+}
+
+/* Footer qismi */
+
+.finish {
+    margin-top: 100px;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.item {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+.item-1 {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.item-2 {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.item img {
+    width: 20px;
+    height: 20px;
+}
+
+.item-1 img {
+    width: 20px;
+    height: 20px;
+}
+
+.item-2 img {
+    width: 20px;
+    height: 20px;
+}
+
+.item p {
+    margin: 0;
+}
+
+.sayt img {
+    float: left;
+    width: 30px;
+    height: 30px;
 }

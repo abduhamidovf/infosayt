@@ -1,0 +1,81 @@
+.header {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #e4e4e4;
+  font-family: "Inter", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* NAVBAR */
+.navbar {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 22px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 80px;
+}
+
+/* Logo */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-box {
+  background: #0b4d2b;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0b4d2b;
+}
+
+/* MAIN NAV MENU */
+.nav-menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+/* A tag (main-nav) */
+.main-nav {
+  text-decoration: none;
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  position: relative;
+  transition: color .25s ease;
+}
+
+/* Underline Hover */
+.main-nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background: #0b4d2b;
+  transition: width .25s ease;
+}
+
+.main-nav:hover {
+  color: #0b4d2b;
+}
+
+.main-nav:hover::after {
+  width: 100%;
+}

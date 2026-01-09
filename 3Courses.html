@@ -4,23 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kurslar</title>
+    <link rel="icon" href="images/IT Yakkabog'.jpg">
     <link rel="stylesheet" href="css/courses.css">
 </head>
 <body>
-    
-    <h1 class="main-header__courses">Bizning kurslarimiz</h1>
-    <p class="main-header__choose">Karyerangizda muvaffaqiyat qozonishingizga yordam beradigan keng</p>
-    <p class="main-header__choose">qamrovli IT kurslarimizdan birini tanlang.</p>
-    
-    <div class="main-header__img">
-        <img src="images/IT Yakkabog'.jpg" alt="rasm bor">
-    </div>
-    <h1><b>Fullstack dasturlash</b></h1>
-    <p>HTML, CSS, JavaScript va React kabi zamonaviy freymvorklardan foydalanib, chiroyli, moslashuvchan veb-saytlar va veb-ilovalar yaratishni o'rganing.</p>
 
-    <div class="main-header__img">
-        <img src="images/IT Yakkabog'.jpg" alt="rasm bor">
+    <!-- head -->
+     <header class="header">
+  <nav class="navbar">
+
+    <div class="nav-logo">
+      <span class="logo-box">IT</span>
+      <span class="logo-text">IT Yakkabog'</span>
     </div>
-    
+
+    <ul class="nav-menu">
+      <li><a href="2Home.html" class="main-nav">Bosh sahifa</a></li>
+      <li><a href="3Courses.html" class="main-nav">Kurslar</a></li>
+      <li><a href="4Blog.html" class="main-nav">Blog</a></li>
+      <li><a href="5Teachers.html" class="main-nav">O'qituvchilar</a></li>
+      <li><a href="6Contact.html" class="main-nav">Kontakt</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+    <!-- head -->
+
+    <!-- body -->
+    <section class="courses">
+    <h2 class="section-title">Bizning kurslarimiz</h2>
+    <p class="section-subtitle">
+        Karyerangizda muvaffaqiyat qozonishingizga yordam beradigan keng qamrovli IT kurslarimizdan birini tanlang.
+    </p>
+
+
+    <!-- IT Fullstack -->
+    <div class="course-card">
+        <img src="images/IT Yakkabog'.jpg" class="course-img" alt="rasm bor">
+        <div class="course-content">
+            <h3>Fullstack dasturlash</h3>
+            <p>HTML, CSS, JavaScript va React kabi zamonaviy freymvorklardan foydalanib, chiroyli, moslashuvchan veb-saytlar yaratishni o'rganing.</p>
+            <div class="course-info">
+                <span>📅 6-8 oy</span>
+                <span>📊 Daraja</span>
+            </div>
+            <a href="6Contact.html" class="course-btn">Bog'lanish →</a>
+        </div>
+    </div>
+
+    <!-- Robototexnika -->
+    <div class="course-card">
+        <img src="images/IT Yakkabog'.jpg" class="course-img" alt="rasm bor">
+        <div class="course-content">
+            <h3>Robototexnika</h3>
+            <p>O'z usulingizda mashina, tank, robotlar ixtiro qiling va o'zaro musobaqa qiling</p>
+            <div class="course-info">
+                <span>📅 7 months</span>
+                <span>📊 Daraja</span>
+            </div>
+            <a href="6Contact.html" class="course-btn">Bog'lanish →</a>
+        </div>
+    </div>
+
+    <!-- Kompyuter savodxonligi -->
+    <div class="course-card">
+        <img src="images/IT Yakkabog'.jpg" class="course-img" alt="rasm bor">
+        <div class="course-content">
+            <h3>Kompyuter savodxonligi</h3>
+            <p>Word, Excel, PowerPoint dasturlarini biz bilan o'rganing</p>
+            <div class="course-info">
+                <span>📅 3 months</span>
+                <span>📊 Daraja</span>
+            </div>
+            <a href="6Contact.html" class="course-btn">Bog'lanish →</a>
+        </div>
+    </div>
+
+    <!-- Grafik dizayn -->
+     <div class="course-card">
+        <img src="images/IT Yakkabog'.jpg" class="course-img" alt="rasm bor">
+        <div class="course-content">
+            <h3>Grafik dizayn</h3>
+            <p>Grafika, AI, rasm generatsiyalarini o'rganing</p>
+            <div class="course-info">
+                <span>📅 3 months</span>
+                <span>📊 Daraja</span>
+            </div>
+            <a href="6Contact.html" class="course-btn">Bog'lanish →</a>
+        </div>
+     </div>
+</section>
+<!-- body -->
+
+
 </body>
 </html>
