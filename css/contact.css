@@ -79,3 +79,134 @@
 .main-nav:hover::after {
   width: 100%;
 }
+/* HERO SECTION */
+.hero {
+    background: #eaf6ee;
+    padding: 70px 0;
+    padding-top: 120px;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+/* TEXT */
+.hero-text h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.2;
+}
+
+.hero-text h1 span {
+    color: #0b4d2b;
+}
+
+.hero-text p {
+    margin-top: 20px;
+    font-size: 17px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+/* BUTTONS */
+.hero-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 14px 26px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Primary button */
+.btn.primary {
+    background: #0b4d2b;
+    color: #fff;
+}
+
+.btn.primary:hover {
+    background: #083d22;
+}
+
+/* Outline button */
+.btn.outline {
+    border: 2px solid #0b4d2b;
+    color: #0b4d2b;
+}
+
+.btn.outline:hover {
+    background: #0b4d2b;
+    color: #fff;
+}
+
+/* IMAGE */
+.hero-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Footer qismi */
+
+.finish {
+    margin-top: 100px;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.item {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+.item-1 {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.item-2 {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.item img {
+    width: 20px;
+    height: 20px;
+}
+
+.item-1 img {
+    width: 20px;
+    height: 20px;
+}
+
+.item-2 img {
+    width: 20px;
+    height: 20px;
+}
+
+.item p {
+    margin: 0;
+}
+
+.sayt img {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
