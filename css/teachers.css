@@ -31,6 +31,9 @@ h1 {
     width: 1000px;
     
 }
+.kasbi {
+  color: rgb(29, 250, 8);
+}
 
 .card {
   display: inline-block;
@@ -39,14 +42,18 @@ h1 {
   border-radius: 16px;
   overflow: hidden;
   text-align: center;
+  background: #dadada;
   padding-bottom: 25px;
-  border: 1px solid #0400ff;
   box-sizing: border-box;
   transition: 0.3s ease;
+  box-shadow: 0.3s ease;
+  transform: 0.3s ease;
 }
 
 .card:hover {
-     box-shadow: 0 10px 20px rgb(0, 0, 0, 0.4);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+  transform: translateY(-6px);
+
 }
 
 .card h2 {
