@@ -12,16 +12,11 @@ h1 {
     text-align: center;
 }
 
-/* .rasmlar {
-    margin-left: 30%;
-    display: flex;
-    gap: 30px;
-    text-align: center;
-} */
 
 .ustozlar {
     font-size: 30px; 
     text-align: center;
+
 }
 
 .cards {
@@ -30,6 +25,10 @@ h1 {
     gap: 20px;
     width: 1000px;
     
+}
+
+.kasbi {
+    color:#005128 ;
 }
 .kasbi {
   color: rgb(29, 250, 8);
@@ -45,12 +44,25 @@ h1 {
   background: #dadada;
   padding-bottom: 25px;
   box-sizing: border-box;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  width: 360px;
+  background: #e7e7e7;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.card:hover {
+  box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+  transform: translateY(-6px);
+}
   transition: 0.3s ease;
   box-shadow: 0.3s ease;
   transform: 0.3s ease;
 }
 
 .card:hover {
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.4);
   box-shadow: 0 18px 40px rgba(0,0,0,0.18);
   transform: translateY(-6px);
 
@@ -71,3 +83,4 @@ h1 {
   height: 300px;
   object-fit: cover;
 }
+
