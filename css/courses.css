@@ -38,6 +38,12 @@
   display: flex;
   gap: 40px;
   list-style: none;
+  text-decoration: none;
+}
+
+.main-nav {
+    text-decoration: none;
+    color: black;
 }
 .navbar {
   max-width: 1300px;
@@ -45,7 +51,6 @@
   padding: 22px 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   justify-content: flex-start;
   gap: 80px;
 }
