@@ -12,6 +12,7 @@
       background: #ffffff;
       border-bottom: 1px solid #e5e7eb;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.06);
+      z-index: 10;
     }
 
     .container {
@@ -191,6 +192,22 @@
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
+    border-radius: 1px solid green;
+}
+
+.btn-nav {
+    text-decoration: none;
+    background-color: #0b4d2b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: 0.5s ease;
+}
+
+.btn-nav:hover {
+    background-color: whitesmoke;
+    color: #0b4d2b;
 }
 
 /* Primary button */
