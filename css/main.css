@@ -1,10 +1,10 @@
 * {
-      margin: 0;
+    margin: 0;
       padding: 0;
       box-sizing: border-box;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
-
+    
     header {
       position: fixed;
       top: 0;
@@ -14,30 +14,30 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.06);
       z-index: 10;
     }
-
+    
     .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 16px 20px;
-      display: flex;
-      align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 16px 20px;
+        display: flex;
+        align-items: center;
       justify-content: space-between;
     }
 
     .logo {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-weight: 700;
-      font-size: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 700;
+        font-size: 20px;
       color: #14532d;
     }
 
     .logo-box {
-      width: 36px;
-      height: 36px;
-      border-radius: 8px;
-      background: #14532d;
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        background: #14532d;
       color: #fff;
       display: flex;
       align-items: center;
@@ -45,12 +45,30 @@
       font-weight: 700;
     }
 
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 28px;
+    /* header button */
+    .btn-nav {
+        text-decoration: none;
+        background-color: #0b4d2b;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 30px;
+        font-weight: 500;
+        transition: 0.5s ease;
     }
+    
+    .btn-nav:hover {
+        background-color: whitesmoke;
+        color: #0b4d2b;
+    }
+    /* header button */
 
+    /* header nav */
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 28px;
+    }
+    
     nav a {
       text-decoration: none;
       color: #000000;
@@ -139,7 +157,7 @@
     color: #0b4d2b;
 }
 
-/* qo'shimcha */                
+/* header nav */                
 
 /* HERO SECTION */
 .hero {
@@ -184,30 +202,6 @@
     margin-top: 30px;
     display: flex;
     gap: 20px;
-}
-
-.btn {
-    padding: 14px 26px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 16px;
-    border-radius: 1px solid green;
-}
-
-.btn-nav {
-    text-decoration: none;
-    background-color: #0b4d2b;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 30px;
-    font-weight: 500;
-    transition: 0.5s ease;
-}
-
-.btn-nav:hover {
-    background-color: whitesmoke;
-    color: #0b4d2b;
 }
 
 /* Primary button */
